@@ -1,0 +1,1614 @@
+{
+  "site_content": [
+    {
+      "_id": "main",
+      "branding": {
+        "siteName": "Bits & Brains Collective",
+        "handle": "@BitsNBrainsCo",
+        "logoUrl": "",
+        "logoAlt": "Bits & Brains Collective floating brain logo",
+        "youtubeUrl": "https://www.youtube.com/@BitsNBrainsCo",
+        "footerPrivacyNote": "Your privacy matters. Contact info you share with us is never shown publicly or sold to anyone."
+      },
+      "pagesEnabled": {
+        "channel": true,
+        "about": true,
+        "ourCode": true,
+        "bookABrain": true,
+        "resources": true,
+        "community": true,
+        "events": true,
+        "bootcamps": true
+      },
+      "seo": {
+        "home": {
+          "title": "Bits & Brains Collective – Computer Science, Made Easy",
+          "description": "Explore computer science videos, friendly tech help, free community support, and plain-language resources from Bits & Brains Collective."
+        },
+        "channel": {
+          "title": "The Channel – Bits & Brains Collective",
+          "description": "Computer science made easy. Watch Season 1 episodes, meet the Collective, explore Who Built This spotlights, and grab the Free Tool of the Week."
+        },
+        "about": {
+          "title": "Meet the Creator – Bits & Brains Collective",
+          "description": "Get to know the creator behind Bits & Brains Collective, their story, credentials, and core beliefs."
+        },
+        "ourCode": {
+          "title": "Our Code & Tech Ethics News – Bits & Brains Collective",
+          "description": "Read the Bits & Brains Code and catch plain-language tech ethics news from trusted sources."
+        },
+        "bookABrain": {
+          "title": "Book a Brain – Tech Help, Websites & Tutoring | Bits & Brains",
+          "description": "Book 1-on-1 tech tutoring, website building, creative editing, or office organization with clear prices and community discounts."
+        },
+        "resources": {
+          "title": "You Are Not Alone – Helpful Resources | Bits & Brains Collective",
+          "description": "Find trusted support programs for youth, housing, mental health, legal help, education, and jobs in plain language."
+        },
+        "community": {
+          "title": "Join the Community – Bits & Brains Collective",
+          "description": "Share ideas, ask beginner-friendly tech questions, and learn together in a respectful community."
+        },
+        "events": {
+          "title": "Tech Events Near You – Bits & Brains Collective",
+          "description": "Find free and low-cost tech events near your zip code or online."
+        },
+        "bootcamps": {
+          "title": "Bootcamps & Certifications – Bits & Brains Collective",
+          "description": "Search free and low-cost coding bootcamps, IT programs, and tech certificates by age, topic, and format."
+        }
+      },
+      "home": {
+        "topName": "Bits & Brains Collective",
+        "promptLine": "Where do you want to start?",
+        "bubbles": [
+          {
+            "id": "b-about",
+            "title": "Meet the Creator",
+            "subtitle": "The person behind the brains",
+            "to": "/about",
+            "color": "pink"
+          },
+          {
+            "id": "b-channel",
+            "title": "Watch the Channel",
+            "subtitle": "Tech made easy, one video at a time",
+            "to": "/channel",
+            "color": "blue"
+          },
+          {
+            "id": "b-book",
+            "title": "Book a Brain",
+            "subtitle": "Get help with tech, websites & more",
+            "to": "/book-a-brain",
+            "color": "blue"
+          },
+          {
+            "id": "b-community",
+            "title": "Join the Community",
+            "subtitle": "Share ideas and ask questions",
+            "to": "/community",
+            "color": "pink"
+          }
+        ],
+        "bottomLinks": [
+          {
+            "id": "ql-resources",
+            "label": "Resources",
+            "to": "/resources"
+          },
+          {
+            "id": "ql-events",
+            "label": "Tech Events",
+            "to": "/events"
+          },
+          {
+            "id": "ql-bootcamps",
+            "label": "Bootcamps",
+            "to": "/bootcamps"
+          },
+          {
+            "id": "ql-code",
+            "label": "Our Code",
+            "to": "/our-code"
+          }
+        ]
+      },
+      "channel": {
+        "heroTitle": "Computer Science, Made Easy.",
+        "heroSubtitle": "Short, friendly videos that explain how computers, coding, and AI (smart computer tools) really work—without confusing tech words.",
+        "subscribeLabel": "Subscribe on YouTube",
+        "videoEmbedUrl": "",
+        "videoPlaceholderText": "Channel trailer video placeholder — add your YouTube embed link in Admin.",
+        "missionHeading": "Our Mission",
+        "missionText": "Bits & Brains spotlights the lesser-known people who built computer science and makes tech feel possible for everyone.",
+        "collectiveHeading": "Meet the Collective",
+        "collectiveMembers": [
+          {
+            "id": "ada",
+            "name": "Ada, the Brains",
+            "role": "Main Host",
+            "inspiration": "Inspired by Ada Lovelace",
+            "description": "Breaks down big computer science ideas into everyday stories anyone can follow.",
+            "accent": "blue"
+          },
+          {
+            "id": "dorothy",
+            "name": "Dorothy, the Upskill Coach",
+            "role": "Career & Learning Guide",
+            "inspiration": "Inspired by Dorothy Vaughan",
+            "description": "Helps you learn new tech skills step by step so you never feel left behind.",
+            "accent": "pink"
+          },
+          {
+            "id": "katherine",
+            "name": "Katherine, the Navigator",
+            "role": "Math & Logic Guide",
+            "inspiration": "Inspired by Katherine Johnson",
+            "description": "Shows how step-by-step thinking and simple math power everything from apps to rockets.",
+            "accent": "blue"
+          },
+          {
+            "id": "camille",
+            "name": "Camille, the Protector",
+            "role": "Cybersecurity Guide",
+            "inspiration": "Staying safe online",
+            "description": "Teaches easy habits to protect your passwords, personal info, and peace of mind online.",
+            "accent": "pink"
+          },
+          {
+            "id": "ai-duo",
+            "name": "Two New Brains Coming Soon",
+            "role": "Machine Learning & AI Guides",
+            "inspiration": "Next up in the Collective",
+            "description": "Two new characters are joining soon to walk you through machine learning and AI in plain words.",
+            "accent": "blue",
+            "comingSoon": true
+          }
+        ],
+        "seasonHeading": "Season 1 Episodes",
+        "episodes": [
+          {
+            "id": "ep-1",
+            "number": 1,
+            "title": "What is computer science?",
+            "summary": "See how solving everyday problems is the real heart of computer science."
+          },
+          {
+            "id": "ep-2",
+            "number": 2,
+            "title": "How do computers work?",
+            "summary": "Take a quick peek inside a computer to see how tiny switches become apps."
+          },
+          {
+            "id": "ep-3",
+            "number": 3,
+            "title": "What is an algorithm?",
+            "summary": "Learn why an algorithm (a step-by-step recipe) is simpler than it sounds."
+          },
+          {
+            "id": "ep-4",
+            "number": 4,
+            "title": "What is AI?",
+            "summary": "Understand artificial intelligence (computers spotting patterns) without the hype."
+          },
+          {
+            "id": "ep-5",
+            "number": 5,
+            "title": "Machine learning vs. deep learning",
+            "summary": "Learn the plain-language difference between these two common AI buzzwords."
+          },
+          {
+            "id": "ep-6",
+            "number": 6,
+            "title": "How does ChatGPT work?",
+            "summary": "Find out how chat tools predict the next word—and what they get wrong."
+          }
+        ],
+        "spotlightHeading": "Who Built This? Meet the people tech forgot to mention.",
+        "toolHeading": "Free Tool of the Week",
+        "sectionsEnabled": {
+          "mission": true,
+          "collective": true,
+          "season1": true,
+          "spotlights": true,
+          "freeTool": true,
+          "newsletter": true
+        }
+      },
+      "about": {
+        "heroTitle": "Meet the Creator",
+        "heroSubtitle": "Placeholder intro — edit this in Admin to tell visitors who you are and why you started Bits & Brains Collective.",
+        "photoUrl": "",
+        "photoAlt": "Portrait photo placeholder of the Bits & Brains Collective creator",
+        "bioHeading": "About Me",
+        "bioText": "[Placeholder bio] Share a warm 2–3 sentence introduction about yourself, your background, and what excites you about teaching tech in plain words.",
+        "storyHeading": "My Story",
+        "storyText": "[Placeholder story] Explain the moment you decided tech explanations should be friendly, clear, and open to everyone—especially people who rarely see themselves in tech.",
+        "credentialsHeading": "Experience & Credentials",
+        "credentialsText": "[Placeholder credentials] List your teaching experience, certifications, community work, or projects you are proud of.",
+        "beliefsHeading": "What I Believe",
+        "beliefs": [
+          {
+            "id": "belief-1",
+            "title": "Belief Placeholder 1",
+            "description": "Plain words beat fancy jargon every single time."
+          },
+          {
+            "id": "belief-2",
+            "title": "Belief Placeholder 2",
+            "description": "Everyone deserves patience and respect while learning something new."
+          },
+          {
+            "id": "belief-3",
+            "title": "Belief Placeholder 3",
+            "description": "Knowing who built technology helps more people see they belong here too."
+          },
+          {
+            "id": "belief-4",
+            "title": "Belief Placeholder 4",
+            "description": "Helpful tech should protect people’s safety, privacy, and dignity."
+          }
+        ],
+        "sectionsEnabled": {
+          "bio": true,
+          "story": true,
+          "credentials": true,
+          "beliefs": true
+        }
+      },
+      "ourCode": {
+        "heading": "The Bits & Brains Code",
+        "intro": "These are the promises that guide everything we teach, build, and share. Edit these placeholders anytime in Admin.",
+        "acmNotePrefix": "Inspired by the",
+        "acmLinkLabel": "ACM Code of Ethics",
+        "acmLinkUrl": "https://www.acm.org/code-of-ethics",
+        "principles": [
+          {
+            "id": "p-1",
+            "icon": "HeartHandshake",
+            "title": "Lead with Kindness",
+            "description": "[Placeholder] We treat every learner, client, and neighbor with patience and respect."
+          },
+          {
+            "id": "p-2",
+            "icon": "MessageSquareHeart",
+            "title": "Speak in Plain Words",
+            "description": "[Placeholder] We explain tech clearly instead of hiding behind confusing jargon."
+          },
+          {
+            "id": "p-3",
+            "icon": "ShieldCheck",
+            "title": "Protect People’s Privacy",
+            "description": "[Placeholder] We never sell personal info or collect details we do not truly need."
+          },
+          {
+            "id": "p-4",
+            "icon": "Accessibility",
+            "title": "Build for Everyone",
+            "description": "[Placeholder] We design websites and lessons so people of all abilities can use them."
+          },
+          {
+            "id": "p-5",
+            "icon": "SearchCheck",
+            "title": "Stay Honest About Limits",
+            "description": "[Placeholder] We share where facts come from and admit when we do not know yet."
+          },
+          {
+            "id": "p-6",
+            "icon": "Users",
+            "title": "Give Credit Where It Is Due",
+            "description": "[Placeholder] We honor the pioneers and community builders who paved the way."
+          }
+        ],
+        "newsHeading": "Tech Ethics in the News",
+        "newsSubheading": "Short summaries from trusted newsrooms on AI, cybersecurity, privacy, fairness, and tech laws.",
+        "sectionsEnabled": {
+          "principles": true,
+          "news": true
+        }
+      },
+      "bookABrain": {
+        "heading": "Book a Brain",
+        "intro": "Friendly, plain-language help with computers, websites, creative projects, and getting organized.",
+        "priceNote": "Prices are starting points. Every project gets a free quote first.",
+        "communityDiscountPercent": 20,
+        "paymentOptions": [
+          {
+            "id": "pay_as_you_go",
+            "title": "Pay As You Go",
+            "description": "Hourly, pay after each session."
+          },
+          {
+            "id": "flat_rate",
+            "title": "Flat-Rate Packages",
+            "description": "One set price, no surprises."
+          },
+          {
+            "id": "payment_plan",
+            "title": "Payment Plans",
+            "description": "50% to start, 50% when done. Projects over $300 can be split into 3 payments."
+          },
+          {
+            "id": "community_rate",
+            "title": "Community Rate",
+            "description": "20% off for nonprofits, students, and current/former foster youth."
+          }
+        ],
+        "services": [
+          {
+            "id": "tech-tutoring",
+            "category": "Tech Help & Teaching",
+            "name": "1-on-1 Tech Tutoring",
+            "description": "Learn computers, coding, or AI basics at your own pace.",
+            "included": "Live screen-share help, plain-language notes, practice tips.",
+            "priceLabel": "$35/hour, or 4 sessions for $120",
+            "basePrice": 35,
+            "priceUnit": "hour"
+          },
+          {
+            "id": "workshops",
+            "category": "Tech Help & Teaching",
+            "name": "Workshops for Groups & Organizations",
+            "description": "Interactive beginner-friendly tech sessions for your team or youth group.",
+            "included": "Custom slide deck, live Q&A, take-home handout.",
+            "priceLabel": "from $200 per session",
+            "basePrice": 200,
+            "priceUnit": "starting"
+          },
+          {
+            "id": "lesson-plans",
+            "category": "Tech Help & Teaching",
+            "name": "Lesson Plans & Learning Materials",
+            "description": "Easy-to-follow worksheets, guides, and activities for classes.",
+            "included": "Editable docs, clear teacher notes, plain-language student pages.",
+            "priceLabel": "$40/hour",
+            "basePrice": 40,
+            "priceUnit": "hour"
+          },
+          {
+            "id": "career-coaching",
+            "category": "Tech Help & Teaching",
+            "name": "Resume, Interview & Career Coaching",
+            "description": "Get ready for tech or office jobs with calm, practical feedback.",
+            "included": "Resume review, mock interview practice, next-step checklist.",
+            "priceLabel": "$40/session",
+            "basePrice": 40,
+            "priceUnit": "session"
+          },
+          {
+            "id": "build-website",
+            "category": "Websites",
+            "name": "I'll Build Your Website (3–5 pages)",
+            "description": "A fast, mobile-friendly website built for your goals.",
+            "included": "3–5 pages, mobile layout, contact form, basic Google setup.",
+            "priceLabel": "from $750 (payment plan available)",
+            "basePrice": 750,
+            "priceUnit": "starting"
+          },
+          {
+            "id": "care-plan",
+            "category": "Websites",
+            "name": "Website Care Plan",
+            "description": "Keep your site safe, updated, and running smoothly.",
+            "included": "Updates, backups, and small fixes (1 hour per month).",
+            "priceLabel": "$75/month",
+            "basePrice": 75,
+            "priceUnit": "month"
+          },
+          {
+            "id": "care-plus",
+            "category": "Websites",
+            "name": "Website Care Plus",
+            "description": "Extra monthly support plus search and accessibility checkups.",
+            "included": "3 hours of help, Google search checkup, accessibility check.",
+            "priceLabel": "$150/month",
+            "basePrice": 150,
+            "priceUnit": "month"
+          },
+          {
+            "id": "website-fix",
+            "category": "Websites",
+            "name": "One-Time Website Fix",
+            "description": "Quick help when something on your website looks broken or stuck.",
+            "included": "Troubleshooting, bug fix, and clear summary of what changed.",
+            "priceLabel": "$45/hour",
+            "basePrice": 45,
+            "priceUnit": "hour"
+          },
+          {
+            "id": "seo-setup",
+            "category": "Websites",
+            "name": "Help People Find You on Google (SEO setup)",
+            "description": "SEO (helping people find your website on Google) done cleanly.",
+            "included": "Page titles, descriptions, search tags, and Google sitemap setup.",
+            "priceLabel": "$200 flat",
+            "basePrice": 200,
+            "priceUnit": "flat"
+          },
+          {
+            "id": "ada-check",
+            "category": "Websites",
+            "name": "Make Your Website Easy for Everyone to Use",
+            "description": "ADA accessibility (making sites work for screen readers and keyboards) check + fixes.",
+            "included": "Color contrast, keyboard navigation, image descriptions, and fixes.",
+            "priceLabel": "from $250",
+            "basePrice": 250,
+            "priceUnit": "starting"
+          },
+          {
+            "id": "video-editing",
+            "category": "Creative",
+            "name": "Video Editing",
+            "description": "Clean cuts, captions, and pacing for social clips or longer talks.",
+            "included": "Captions, color cleanup, and ready-to-post video file.",
+            "priceLabel": "$50 under 60s; longer videos $35/hour",
+            "basePrice": 50,
+            "priceUnit": "each"
+          },
+          {
+            "id": "photo-editing",
+            "category": "Creative",
+            "name": "Photo & Image Editing",
+            "description": "Brighten, crop, or clean up photos for your website or flyers.",
+            "included": "Lighting adjustment, background cleanup, web-ready sizes.",
+            "priceLabel": "$10 per image or 5 for $40",
+            "basePrice": 10,
+            "priceUnit": "each"
+          },
+          {
+            "id": "flyers-graphics",
+            "category": "Creative",
+            "name": "Flyers & Social Media Graphics",
+            "description": "Eye-catching, easy-to-read designs made in Canva or Figma.",
+            "included": "Custom layout, print & social sizes, editable template link.",
+            "priceLabel": "$40 per design",
+            "basePrice": 40,
+            "priceUnit": "each"
+          },
+          {
+            "id": "data-entry",
+            "category": "Office & Organization",
+            "name": "Data Entry & Office Tasks",
+            "description": "Careful spreadsheet updates, forms, and everyday admin help.",
+            "included": "Accurate spreadsheet cleanup, document formatting, checklists.",
+            "priceLabel": "$25/hour",
+            "basePrice": 25,
+            "priceUnit": "hour"
+          },
+          {
+            "id": "inbox-cleanup",
+            "category": "Office & Organization",
+            "name": "Inbox Clean-Up",
+            "description": "Turn an overwhelming email inbox into calm, organized folders.",
+            "included": "Sort messages, unsubscribe from junk, set up folders & filters.",
+            "priceLabel": "$100 flat",
+            "basePrice": 100,
+            "priceUnit": "flat"
+          },
+          {
+            "id": "calendar-setup",
+            "category": "Office & Organization",
+            "name": "Calendar & Schedule Setup",
+            "description": "Build a simple weekly schedule and reminder system that sticks.",
+            "included": "Calendar blocks, booking links, reminders ($100/mo ongoing).",
+            "priceLabel": "$60 flat; ongoing help $100/month",
+            "basePrice": 60,
+            "priceUnit": "flat"
+          },
+          {
+            "id": "newsletter-setup",
+            "category": "Office & Organization",
+            "name": "Email Newsletter Setup",
+            "description": "Set up your email list and welcome message in Brevo or Klaviyo.",
+            "included": "Signup form connection, list setup, reusable email template.",
+            "priceLabel": "$40/hour",
+            "basePrice": 40,
+            "priceUnit": "hour"
+          },
+          {
+            "id": "project-board",
+            "category": "Office & Organization",
+            "name": "Project Board Setup",
+            "description": "Organize tasks in Jira, Monday.com, or Trello so nothing slips.",
+            "included": "Columns, task templates, and a quick walkthrough video.",
+            "priceLabel": "$75 flat",
+            "basePrice": 75,
+            "priceUnit": "flat"
+          },
+          {
+            "id": "grant-writing",
+            "category": "Writing & Testing",
+            "name": "Grant Writing Support",
+            "description": "Research, editing, and organizing answers for community grants.",
+            "included": "Grant research list, plain-language drafting, checklist.",
+            "priceLabel": "$45/hour",
+            "basePrice": 45,
+            "priceUnit": "hour"
+          },
+          {
+            "id": "how-to-guides",
+            "category": "Writing & Testing",
+            "name": "How-To Guides & Instructions",
+            "description": "Clear step-by-step manuals with screenshots anyone can follow.",
+            "included": "Plain-language steps, labeled screenshots, PDF or doc.",
+            "priceLabel": "$35/hour",
+            "basePrice": 35,
+            "priceUnit": "hour"
+          },
+          {
+            "id": "app-testing",
+            "category": "Writing & Testing",
+            "name": "App & Website Testing",
+            "description": "Find confusing buttons and bugs before your visitors do.",
+            "included": "Full click-through test, bug list with screenshots, fix tips.",
+            "priceLabel": "$35/hour",
+            "basePrice": 35,
+            "priceUnit": "hour"
+          }
+        ],
+        "sectionsEnabled": {
+          "paymentOptions": true,
+          "services": true,
+          "bookingForm": true
+        }
+      },
+      "resources": {
+        "heading": "You're Not Alone. Help Is Right Here.",
+        "intro": "Whether you need housing, someone to talk to, legal support, or a fresh start with school or work, these programs are here to help. Everything is listed A to Z in plain words.",
+        "emergencyBanner": "In immediate danger? Call 911.",
+        "quickExitNote": "Need to leave fast? Click Quick Exit."
+      },
+      "community": {
+        "heading": "Join the Community",
+        "intro": "Ask questions, share ideas, and talk about tech in a warm, respectful space. Every post is reviewed by a real person before it goes live.",
+        "agreementText": "I agree to keep it respectful: no profanity, hate, harassment or disrespect of any kind."
+      },
+      "events": {
+        "heading": "Tech Events Near You",
+        "intro": "Find free and affordable workshops, meetups, and coding nights near your zip code or online."
+      },
+      "bootcamps": {
+        "heading": "Bootcamps & Certifications",
+        "intro": "Browse coding programs, IT training, and tech certificates—filtered by cost, age group, and whether they are online or in person."
+      }
+    }
+  ],
+  "spotlights": [
+    {
+      "name": "[Placeholder] Trailblazer Name 1",
+      "years": "[Years, e.g. 1900–1980]",
+      "whatTheyDid": "[Placeholder: One clear sentence describing what they built or discovered.]",
+      "whyItMatters": "[Placeholder: Why their work still shows up in the tech we use today.]",
+      "photoUrl": "",
+      "photoAlt": "Portrait placeholder for Spotlight 1",
+      "order": 1,
+      "createdAt": "2026-11-01T10:00:00.000Z",
+      "_id": "12b67f0f-fc8f-47fe-a931-37be6fd0b69d"
+    },
+    {
+      "name": "[Placeholder] Trailblazer Name 2",
+      "years": "[Years]",
+      "whatTheyDid": "[Placeholder: One clear sentence describing what they built or discovered.]",
+      "whyItMatters": "[Placeholder: Why their work matters today.]",
+      "photoUrl": "",
+      "photoAlt": "Portrait placeholder for Spotlight 2",
+      "order": 2,
+      "createdAt": "2026-10-15T10:00:00.000Z",
+      "_id": "45c4193e-944c-4ff7-aa7d-9d1117d7abf2"
+    },
+    {
+      "name": "[Placeholder] Trailblazer Name 3",
+      "years": "[Years]",
+      "whatTheyDid": "[Placeholder: One clear sentence describing what they built or discovered.]",
+      "whyItMatters": "[Placeholder: Why their work matters today.]",
+      "photoUrl": "",
+      "photoAlt": "Portrait placeholder for Spotlight 3",
+      "order": 3,
+      "createdAt": "2026-10-01T10:00:00.000Z",
+      "_id": "2cdfe472-ad4c-439f-bba9-836b1b2e99d8"
+    }
+  ],
+  "tools_of_the_week": [
+    {
+      "name": "Scratch",
+      "whatItDoes": "Lets you snap colorful coding blocks together to build games and animations with zero typing.",
+      "whoItIsFor": "Complete beginners, visual learners, kids, and anyone curious about how coding logic works.",
+      "tryItUrl": "https://scratch.mit.edu",
+      "isCurrent": true,
+      "weekLabel": "This Week",
+      "createdAt": "2026-11-10T10:00:00.000Z",
+      "_id": "bf85dd56-609a-4cc7-b2e6-7fbbc39feaaa"
+    },
+    {
+      "name": "Bitwarden",
+      "whatItDoes": "Remembers all your passwords safely in one place so you only need one strong main password.",
+      "whoItIsFor": "Anyone tired of forgetting passwords or reusing the same password everywhere.",
+      "tryItUrl": "https://bitwarden.com",
+      "isCurrent": false,
+      "weekLabel": "Past Pick",
+      "createdAt": "2026-11-03T10:00:00.000Z",
+      "_id": "faa035de-f377-4f76-bb4d-094b36e18ab6"
+    }
+  ],
+  "resources": [
+    {
+      "name": "211",
+      "category": "Housing",
+      "description": "Free, confidential help connecting you with local food, housing, utility bills, health care, and crisis support. [VERIFY]",
+      "whoItServes": "Anyone in the U.S. or Canada looking for local help",
+      "phone": "[VERIFY]",
+      "website": "[VERIFY]",
+      "area": "National",
+      "_id": "1f788d78-d57f-4667-84d3-f214d7c26693"
+    },
+    {
+      "name": "988 Suicide & Crisis Lifeline",
+      "category": "Mental Health",
+      "description": "Free, 24/7 confidential support by call or text when you are going through a hard time or emotional crisis. [VERIFY]",
+      "whoItServes": "Anyone needing emotional support or crisis help",
+      "phone": "[VERIFY]",
+      "website": "[VERIFY]",
+      "area": "National",
+      "_id": "465c236c-018c-4a71-959e-518e68027323"
+    },
+    {
+      "name": "Covenant House",
+      "category": "Homeless Youth",
+      "description": "Safe shelter, meals, job help, and loving support for young people facing homelessness. [VERIFY]",
+      "whoItServes": "Youth and young adults experiencing homelessness",
+      "phone": "[VERIFY]",
+      "website": "[VERIFY]",
+      "area": "National",
+      "_id": "99b11a7e-fc20-4467-8452-a83795ddc3ab"
+    },
+    {
+      "name": "FosterClub",
+      "category": "Foster Youth",
+      "description": "Peer support, leadership programs, and plain-language guides for young people in or leaving foster care. [VERIFY]",
+      "whoItServes": "Current and former foster youth",
+      "phone": "[VERIFY]",
+      "website": "[VERIFY]",
+      "area": "National",
+      "_id": "268d7ace-c8b6-41ef-b54c-204ad6fc762b"
+    },
+    {
+      "name": "John Burton Advocates for Youth",
+      "category": "Education",
+      "description": "Helps current and former foster and homeless youth get into college, find housing, and build stable futures. [VERIFY]",
+      "whoItServes": "Current and former foster and homeless youth in California",
+      "phone": "[VERIFY]",
+      "website": "[VERIFY]",
+      "area": "CA",
+      "_id": "497fef19-f8be-43fc-bb04-a20c725f26e4"
+    },
+    {
+      "name": "Juvenile Law Center",
+      "category": "Legal Help",
+      "description": "Works to protect the rights and futures of young people in the foster care and justice systems. [VERIFY]",
+      "whoItServes": "Justice-impacted and foster youth",
+      "phone": "[VERIFY]",
+      "website": "[VERIFY]",
+      "area": "National",
+      "_id": "cb8e822b-888a-4884-8323-5c6b78abcfb5"
+    },
+    {
+      "name": "National Domestic Violence Hotline",
+      "category": "Domestic Violence Survivors",
+      "description": "24/7 confidential safety planning, crisis support, and local shelter referrals for anyone affected by relationship abuse. [VERIFY]",
+      "whoItServes": "Domestic violence survivors and loved ones",
+      "phone": "[VERIFY]",
+      "website": "[VERIFY]",
+      "area": "National",
+      "_id": "0e96b1b6-49ea-4f8f-b728-abc1d24f9988"
+    },
+    {
+      "name": "National Runaway Safeline",
+      "category": "Homeless Youth",
+      "description": "Free, confidential 24/7 support, problem-solving, and shelter connections for youth thinking about running away or already on the street. [VERIFY]",
+      "whoItServes": "Runaway, homeless, and at-risk youth",
+      "phone": "[VERIFY]",
+      "website": "[VERIFY]",
+      "area": "National",
+      "_id": "2c008964-7027-48b1-aba2-8eafcc5d6e74"
+    }
+  ],
+  "programs": [
+    {
+      "name": "Cisco Networking Academy",
+      "provider": "Cisco [VERIFY]",
+      "description": "Free and low-cost courses in networking, cybersecurity, and basic IT skills. [VERIFY]",
+      "costType": "Free",
+      "ageGroup": "All Ages",
+      "mode": "Both",
+      "topic": "Cybersecurity & IT",
+      "link": "[VERIFY]",
+      "area": "National / Online",
+      "_id": "c9ca1fde-e8ab-4512-a2f2-857d91ed7892"
+    },
+    {
+      "name": "Code.org",
+      "provider": "Code.org [VERIFY]",
+      "description": "Beginner-friendly coding lessons and projects designed for students and classrooms. [VERIFY]",
+      "costType": "Free",
+      "ageGroup": "Teens",
+      "mode": "Online",
+      "topic": "Coding",
+      "link": "[VERIFY]",
+      "area": "Online",
+      "_id": "6d00df37-daaa-4155-8b49-6ce3c49883aa"
+    },
+    {
+      "name": "freeCodeCamp",
+      "provider": "freeCodeCamp [VERIFY]",
+      "description": "Self-paced interactive coding lessons and free certificates in web building, Python, and data. [VERIFY]",
+      "costType": "Free",
+      "ageGroup": "All Ages",
+      "mode": "Online",
+      "topic": "Coding",
+      "link": "[VERIFY]",
+      "area": "Online",
+      "_id": "b49fff22-c327-41ff-8897-e8076c2fd932"
+    },
+    {
+      "name": "Google Career Certificates",
+      "provider": "Google [VERIFY]",
+      "description": "Job-ready certificates in IT support, data analytics, cybersecurity, and UX design. [VERIFY]",
+      "costType": "Low Cost",
+      "ageGroup": "Adults",
+      "mode": "Online",
+      "topic": "Tech Certificates",
+      "link": "[VERIFY]",
+      "area": "Online",
+      "_id": "e5c590b9-d95c-47bd-9807-b708a665e4b0"
+    },
+    {
+      "name": "NPower",
+      "provider": "NPower [VERIFY]",
+      "description": "Tuition-free tech training and job placement for military-connected folks and young adults from underserved communities. [VERIFY]",
+      "costType": "Free",
+      "ageGroup": "Young Adults",
+      "mode": "Both",
+      "topic": "Cybersecurity & IT",
+      "link": "[VERIFY]",
+      "area": "Multiple Cities / Online",
+      "_id": "231fdc02-4daf-4388-a555-82abd88beb40"
+    },
+    {
+      "name": "Per Scholas",
+      "provider": "Per Scholas [VERIFY]",
+      "description": "Tuition-free IT, cloud, and coding training designed to launch full-time tech careers. [VERIFY]",
+      "costType": "Free",
+      "ageGroup": "Adults",
+      "mode": "Both",
+      "topic": "Coding & IT",
+      "link": "[VERIFY]",
+      "area": "Multiple Cities / Online",
+      "_id": "72be38e0-7ff0-4ef2-9234-3ab9dfd30427"
+    },
+    {
+      "name": "Year Up",
+      "provider": "Year Up [VERIFY]",
+      "description": "Free job training, college credits, and internships for young adults ages 18–29. [VERIFY]",
+      "costType": "Free",
+      "ageGroup": "Young Adults",
+      "mode": "Both",
+      "topic": "IT & Careers",
+      "link": "[VERIFY]",
+      "area": "Multiple Cities / Online",
+      "_id": "a347e1d4-89db-4a91-9e02-6ea795c0d117"
+    }
+  ],
+  "events": [
+    {
+      "title": "Beginner Python Study Night (Online)",
+      "date": "2026-12-05",
+      "cost": 0,
+      "costLabel": "Free",
+      "zip": "",
+      "city": "Online",
+      "link": "https://www.eventbrite.com/d/online/free--python/",
+      "mode": "online",
+      "description": "Bring a laptop and learn the basics of Python with friendly mentors.",
+      "_id": "4886a82d-8233-4d13-bf36-5b23ce35b59a"
+    },
+    {
+      "title": "Community Web Accessibility Workshop",
+      "date": "2026-12-10",
+      "cost": 0,
+      "costLabel": "Free",
+      "zip": "90001",
+      "city": "Los Angeles, CA",
+      "link": "https://www.meetup.com",
+      "mode": "in-person",
+      "description": "Hands-on session showing how screen readers work and how to make sites easier to use.",
+      "_id": "7da81e55-d0f6-47f7-a928-eeccf149b079"
+    },
+    {
+      "title": "Intro to Cybersecurity Basics",
+      "date": "2026-12-14",
+      "cost": 10,
+      "costLabel": "$10",
+      "zip": "94103",
+      "city": "San Francisco, CA",
+      "link": "https://www.eventbrite.com",
+      "mode": "in-person",
+      "description": "Learn how to spot scams, lock down accounts, and stay safer online.",
+      "_id": "4c7595e1-8350-485f-80b0-c0858f66567b"
+    },
+    {
+      "title": "Tech Career Q&A for Beginners (Online)",
+      "date": "2026-12-18",
+      "cost": 0,
+      "costLabel": "Free",
+      "zip": "",
+      "city": "Online",
+      "link": "https://www.meetup.com",
+      "mode": "online",
+      "description": "Ask anything about getting started in IT, support, coding, or design.",
+      "_id": "2e7609fc-92e7-4c2a-a271-2820ce7f6404"
+    }
+  ],
+  "forum_postings_reviewed": [
+    {
+      "displayName": "Maya R.",
+      "email": "maya-demo@example.com",
+      "topic": "Intro to Computer Science",
+      "comment": "Thank you for explaining algorithms like a cooking recipe! That finally clicked for me.",
+      "status": "approved",
+      "createdAt": "2026-11-10T14:20:00.000Z",
+      "_id": "45c98b33-b717-4d9f-b246-6aa74cc90e05"
+    },
+    {
+      "displayName": "Jordan T.",
+      "email": "jordan-demo@example.com",
+      "topic": "Careers in Tech",
+      "comment": "For anyone just starting out: checking out 1-on-1 tutoring and freeCodeCamp together helped me build my first page.",
+      "status": "approved",
+      "createdAt": "2026-11-12T18:45:00.000Z",
+      "_id": "57f30ede-9953-4513-92ce-1b356da02b88"
+    }
+  ],
+  "admins": [
+    {
+      "email": "bitznbrainsco@gmail.com",
+      "name": "Owner",
+      "passwordHash": "$2b$12$gbaPQKn6q79d.o9GqUWS0eXTf.No9YyIEh0s0E.TuM6RXe10m4Iae",
+      "role": "owner",
+      "failedAttempts": 0,
+      "lockedUntil": null,
+      "createdAt": "2026-11-17T19:48:12.239Z",
+      "_id": "e7ed4bc7-f814-47d4-b9e3-1633173422d2"
+    }
+  ],
+  "news": [
+    {
+      "title": "Roundtables: Inside the Quest for Cognitive Immortality",
+      "sourceName": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/17/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
+      "summary": "Listen to the session or watch below In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death.",
+      "publishedAt": "2026-11-17T18:46:47.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "8940ea3d-86cd-4dbb-885a-30c22e62ff87"
+    },
+    {
+      "title": "Hydropower hit record lows in the US Southwest this summer",
+      "sourceName": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/",
+      "summary": "The US Southwest generated 28% less electricity via hydropower between April and August than the 10-year average, according to new data from the US Energy Information Administration. Most hydropower plants in the US rely on dams to hold back water, creating reservoirs.",
+      "publishedAt": "2026-11-17T17:52:10.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "54b4f908-6c6b-420a-b37c-e212d0379354"
+    },
+    {
+      "title": "Research Reports",
+      "sourceName": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+      "summary": "To access a report, click on the corresponding image below.",
+      "publishedAt": "2026-11-17T14:39:46.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "89dbbbd9-d04a-4b77-9c58-e2eec5064fd3"
+    },
+    {
+      "title": "The Download: Jensen Huang’s open-source dilemma and cognitive immortality",
+      "sourceName": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.",
+      "publishedAt": "2026-11-17T13:10:00.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "13d8bdbe-dce0-4ed7-a65a-b506bf342c23"
+    },
+    {
+      "title": "The open-source movement wants Jensen Huang back",
+      "sourceName": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here.",
+      "publishedAt": "2026-11-16T18:38:47.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "9af607cc-f258-4060-aedb-493aa6b4eb72"
+    },
+    {
+      "title": "Building trustworthy AI by fencing it in, not predicting it",
+      "sourceName": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+      "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said i...",
+      "publishedAt": "2026-11-16T16:04:28.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "7b666c2b-cbbf-40ea-9c78-744508a99034"
+    },
+    {
+      "title": "The Download: testing tech promises and searching for cognitive immortality",
+      "sourceName": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Are we there yet?",
+      "publishedAt": "2026-11-16T13:10:00.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "5f493c79-e252-4bea-8e7c-a5dc0945ed3d"
+    },
+    {
+      "title": "Building AI that can work across the enterprise",
+      "sourceName": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+      "summary": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate.",
+      "publishedAt": "2026-11-16T13:00:00.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "2ff0e2ef-2105-4287-a59c-14acfdf33114"
+    },
+    {
+      "title": "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
+      "sourceName": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Silicon Valley claims to know the future.",
+      "publishedAt": "2026-11-13T13:10:00.000Z",
+      "categories": [
+        "Privacy"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "a56b11eb-b50e-494d-b139-aa5b4cf6e3f5"
+    },
+    {
+      "title": "More autonomy, fewer NDAs: Volunteers have new requests for brain implant trials",
+      "sourceName": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/",
+      "summary": "Scientists have been working on ways to decode brain activity for decades. Teams have developed brain implants that can be used to control robotic limbs and computers, and even to “speak.",
+      "publishedAt": "2026-11-13T10:00:00.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "d70cffaf-6e26-42f5-be43-d745b019cbe4"
+    },
+    {
+      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+      "sourceName": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+      "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+      "publishedAt": "2026-11-17T14:00:29.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "c15b91ef-0382-4510-bfa1-e0e1661f0c7a"
+    },
+    {
+      "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.",
+      "sourceName": "Ars Technica",
+      "link": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
+      "summary": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
+      "publishedAt": "2026-11-16T20:37:47.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "1f48b401-a636-4382-8dcd-a7cb5a6759f1"
+    },
+    {
+      "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+      "sourceName": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+      "summary": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
+      "publishedAt": "2026-11-13T16:26:32.000Z",
+      "categories": [
+        "Cybersecurity"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "56dd0421-779f-4c6f-9671-cc68611f82c5"
+    },
+    {
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "sourceName": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
+      "publishedAt": "2026-11-10T21:12:59.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "175abfdb-c189-4711-9cc6-cb194a6df36f"
+    },
+    {
+      "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
+      "sourceName": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
+      "summary": "\"*sshole\" poses a serious threat to Internet security.",
+      "publishedAt": "2026-11-09T19:41:34.000Z",
+      "categories": [
+        "Cybersecurity"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "e7795ce1-09c8-4816-bb2d-a7fce9586261"
+    },
+    {
+      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+      "sourceName": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+      "summary": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
+      "publishedAt": "2026-11-06T20:56:41.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "6eb03909-bf6a-497f-a8cd-f082f7c782bc"
+    },
+    {
+      "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+      "sourceName": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+      "summary": "Certain configurations of Alpine are affected. Other distros may be as well.",
+      "publishedAt": "2026-11-05T23:09:36.000Z",
+      "categories": [
+        "Cybersecurity"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "82212842-d8ad-46fb-a04b-65e572bc286b"
+    },
+    {
+      "title": "Hackers exploited iOS and Android flaws to infect phones",
+      "sourceName": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
+      "summary": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
+      "publishedAt": "2026-11-04T22:26:49.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "03804f93-b1e0-4d6b-b3ef-714c1193e225"
+    },
+    {
+      "title": "VMware releases vSphere Express for virtualization on up to 128 cores",
+      "sourceName": "Ars Technica",
+      "link": "https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/",
+      "summary": "“We started listening to a lot of our lower-end customers,\" VMware exec says.",
+      "publishedAt": "2026-11-04T21:38:49.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "16c9d86f-46c5-49c9-bd5a-98ffc9982b99"
+    },
+    {
+      "title": "Binance says hackers who stole billions in crypto spent months planning heist",
+      "sourceName": "Ars Technica",
+      "link": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/",
+      "summary": "Techniques included laptop infections, compromised internal tooling, and fake job interviews.",
+      "publishedAt": "2026-11-04T16:06:03.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "5edaf290-0869-4b71-8deb-0d385af08dc0"
+    },
+    {
+      "title": "UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?",
+      "sourceName": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/",
+      "summary": "UEFI bootkit BlackX exploits Microsoft's lack of clarity around Secure Boot protections.",
+      "publishedAt": "2026-11-03T16:03:13.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "a83678e8-2bb1-43b8-93fe-23ed70df2122"
+    },
+    {
+      "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+      "sourceName": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+      "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+      "publishedAt": "2026-10-30T21:09:54.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "a833a3d4-9b32-494e-ba26-19afb1aeb625"
+    },
+    {
+      "title": "How to Tell If It’s a Cyberattack or Just an Outage",
+      "sourceName": "Wired",
+      "link": "https://www.wired.com/story/how-to-tell-if-its-a-cyberattack-or-just-an-outage/",
+      "summary": "Email, flights, banks; network failures are piling up. Here’s how WIRED investigates if they’re the result of hacker mayhem.",
+      "publishedAt": "2026-11-17T19:40:57.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "cf788dcf-fcaf-4eae-ac1b-4609e304dabf"
+    },
+    {
+      "title": "Waymo Pauses All Highway Rides After California Safety Ban",
+      "sourceName": "Wired",
+      "link": "https://www.wired.com/story/waymo-pulls-its-robotaxis-from-highways-after-california-incidents/",
+      "summary": "The California DMV banned Waymo’s self-driving cars from driving on freeways after determining “an imminent hazard to public safety.",
+      "publishedAt": "2026-11-17T19:38:08.000Z",
+      "categories": [
+        "Laws & Policy"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "3d598ab7-2d48-4d9c-a89b-a740e3c6130d"
+    },
+    {
+      "title": "The Nvidia Scandal Could Upend Chip Sales to China.",
+      "sourceName": "Wired",
+      "link": "https://www.wired.com/story/the-nvidia-scandal-is-about-chip-sales-to-china-trump-wants-to-keep-them-going/",
+      "summary": "Commerce secretary Howard Lutnick has been under attack for not blacklisting a company caught up in the Jensen Huang scandal. But Trump is on board with the policy.",
+      "publishedAt": "2026-11-17T18:03:32.000Z",
+      "categories": [
+        "Laws & Policy"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "3c9cc5cb-cb6f-4134-98f3-b5f98003f046"
+    },
+    {
+      "title": "Jensen Huang Says He’s Open to Coming Back to Nvidia",
+      "sourceName": "Wired",
+      "link": "https://www.wired.com/story/jensen-huang-says-hes-open-to-coming-back-to-nvidia/",
+      "summary": "Huang said in a statement that he “would be honored” to return as Nvidia CEO if the board of directors supported the decision.",
+      "publishedAt": "2026-11-17T17:32:24.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "5c6bb301-bbf6-4991-b999-035ba65c68f2"
+    },
+    {
+      "title": "VSCO Is Gunning for Adobe Lightroom With Its New Desktop App",
+      "sourceName": "Wired",
+      "link": "https://www.wired.com/story/vsco-is-gunning-for-adobe-lightroom-with-its-new-desktop-app/",
+      "summary": "The new Studio Pro Desktop app for macOS delivers fast batch editing, RAW support, and more than 200 presets, though a few pro tools are still missing.",
+      "publishedAt": "2026-11-17T17:00:00.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "54b84112-6702-4ef2-82ca-4fc8e7fa0ec7"
+    },
+    {
+      "title": "Xreal Aura Review: Stunning Screens, Frustrating Controls",
+      "sourceName": "Wired",
+      "link": "https://www.wired.com/review/xreal-aura/",
+      "summary": "Xreal’s Aura glasses are much comfier than a bulky VR headset. I just wish they weren’t so frustrating to control.",
+      "publishedAt": "2026-11-17T14:00:00.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "1fadd6c3-6cad-44ff-87c5-59c80caadf0d"
+    },
+    {
+      "title": "Best Laptops (2026): My Top Recommendations After Testing Hundreds",
+      "sourceName": "Wired",
+      "link": "https://www.wired.com/story/best-laptops/",
+      "summary": "I’ve tested laptops for more than a decade, and here’s my advice for finding the right laptop for you.",
+      "publishedAt": "2026-11-17T13:00:00.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "f575f428-1d63-45b2-b903-819ae3903f53"
+    },
+    {
+      "title": "Capillus HairBand Review: Good Looks, Awkward Fit",
+      "sourceName": "Wired",
+      "link": "https://www.wired.com/review/capillus-hairband/",
+      "summary": "The Capillus HairBand’s small size is both its biggest attraction and one of its biggest drawbacks.",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "53e4b4fb-d2ce-4ed1-9778-434c36f4f054"
+    },
+    {
+      "title": "Congratulations to WIRED’s Class of 2026",
+      "sourceName": "Wired",
+      "link": "https://www.wired.com/story/wired-yearbook-2026/",
+      "summary": "This past year was, frankly, crazy. For our inaugural WIRED Yearbook, we celebrate the people, inventions, and viral moments that made it a little more bearable—and are already defining the future.",
+      "publishedAt": "2026-11-17T11:00:00.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "fa5fe52a-459d-493e-96c7-73b17d7bdc5f"
+    },
+    {
+      "title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
+      "sourceName": "Wired",
+      "link": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
+      "summary": "The French CEO of Hugging Face, a mega-hub of open-source AI software, says the attack by OpenAI models earlier this year proved one thing: Humanity can’t let AI be controlled by the few.",
+      "publishedAt": "2026-11-17T11:00:00.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "95708b90-a796-4f9b-bd3f-dc0cb906f647"
+    },
+    {
+      "title": "The Dark Side of the Moon Was the Brightest Part of 2026",
+      "sourceName": "Wired",
+      "link": "https://www.wired.com/story/wired-yearbook-2026-artemis-crew/",
+      "summary": "Through personality clashes, blaring smoke detectors, and a broken pee vent, the Artemis II astronauts made history—and bonded for life.",
+      "publishedAt": "2026-11-17T11:00:00.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "cdf753ee-4e9f-4f79-b211-05376f7a8211"
+    },
+    {
+      "title": "The Apple Watch’s Live Rewind Can Record and Rewind Spoken Conversations.",
+      "sourceName": "Wired",
+      "link": "https://www.wired.com/story/apple-watch-audio-intelligence-live-rewind-siri-recap/",
+      "summary": "Live Rewind and Siri Recap can transcribe missed moments and summarize your day—if you don’t mind a little social clumsiness.",
+      "publishedAt": "2026-11-17T11:00:00.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "583b64f9-803b-4f2c-9500-755e76bc1fd7"
+    },
+    {
+      "title": "Framework’s better couch keyboard is now available for preorder",
+      "sourceName": "The Verge",
+      "link": "https://www.theverge.com/tech/1035805/framework-wireless-touchpad-keyboard-preorder-open",
+      "summary": "Framework announced its Wireless Touchpad Keyboard earlier this year with the goal of delivering a better couch keyboarding experience than the Logitech K400.",
+      "publishedAt": "2026-11-17T19:38:42.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "de5f3418-8e19-4785-8c8a-969e46ed08e5"
+    },
+    {
+      "title": "California just banned Waymo from all state freeways",
+      "sourceName": "The Verge",
+      "link": "https://www.theverge.com/transportation/1035789/california-dmv-bans-waymo-freeways-construction-zone-safety",
+      "summary": "California has pulled the plug on Waymo's driverless freeway rides across the entire state, citing potential safety hazards. In a statement, the California Department of Motor Vehicles said that the ban went into effect on November 11th.",
+      "publishedAt": "2026-11-17T19:38:05.000Z",
+      "categories": [
+        "Laws & Policy"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "c8cc0815-cd10-41fb-aef2-afb57f93e3a1"
+    },
+    {
+      "title": "JBL’s headphones that are great for in-flight entertainment are 67 percent off",
+      "sourceName": "The Verge",
+      "link": "https://www.theverge.com/gadgets/1035085/jbl-tour-one-m3-deal-sale-black-friday-2026",
+      "summary": "If you’re looking to upgrade your headphones before the big wave of Black Friday deals arrives, you can buy JBL’s Tour One M3 for a new low price of $149 ($300 off) at Amazon, Best Buy, and directly from JBL.",
+      "publishedAt": "2026-11-17T19:19:10.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "ff6823b6-87ec-4eae-966f-5c2404c643c6"
+    },
+    {
+      "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+      "sourceName": "The Verge",
+      "link": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "summary": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might...",
+      "publishedAt": "2026-11-17T18:58:01.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "279f53f5-8da7-4166-b931-3ce67891f75e"
+    },
+    {
+      "title": "Meta is testing a new standalone messaging app called Direct",
+      "sourceName": "The Verge",
+      "link": "https://www.theverge.com/tech/1035740/meta-instagram-direct-messaging-app",
+      "summary": "Meta announced Direct, a new messaging app from Instagram that it's currently testing in Turkey and Thailand on iOS and Android. Direct is essentially Instagram's direct messaging without Instagram's other features.",
+      "publishedAt": "2026-11-17T18:33:02.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "65645fa1-5557-4eb9-9a04-bad575f87826"
+    },
+    {
+      "title": "Amflow’s new urban e-bike series is deliciously overpowered for flat city streets",
+      "sourceName": "The Verge",
+      "link": "https://www.theverge.com/transportation/1035318/amflow-ue-carbon-pro-commuter-ebike-dji-avinox-price-specs",
+      "summary": "DJI spinoff Amflow has spent the last couple of years shaking up the electric mountain bike (eMTB) market with ridiculously high-torque, lightweight models. Today, it's bringing that same overengineered energy to pavement with the UE Series, its first urban commuter line.",
+      "publishedAt": "2026-11-17T18:30:03.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "529e4460-9200-4920-aa1c-76aae14b4127"
+    },
+    {
+      "title": "YouTube found a new way to inflate view counts",
+      "sourceName": "The Verge",
+      "link": "https://www.theverge.com/streaming/1035683/youtube-co-views-count",
+      "summary": "YouTube's view counts will now include the number of people that it estimates are watching a video together on TV. In an update on Monday, the platform says it's bringing \"co-views\" to public view counts across long-form videos, Shorts, and live content to provide a more \"comp...",
+      "publishedAt": "2026-11-17T17:50:22.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "f55fc2c5-1e16-43e4-8137-3c11692d308c"
+    },
+    {
+      "title": "The iPhone Duo feels far more intuitive with Apple’s new face unlock",
+      "sourceName": "The Verge",
+      "link": "https://www.theverge.com/tech/1035437/iphone-duo-face-unlock-front-camera-hands-on",
+      "summary": "Apple is testing adding face unlock to the iPhone Duo - not true Face ID, but something a little simpler and less secure. So far, it works great, and even with a few Apple-imposed security limitations, it makes the Duo quicker and more comfortable to use than relying on Touch...",
+      "publishedAt": "2026-11-17T17:41:22.000Z",
+      "categories": [
+        "Cybersecurity"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "f4b5cad8-e489-4803-bf71-bdf86936e245"
+    },
+    {
+      "title": "Inside Microsoft’s giant Outlook outage",
+      "sourceName": "The Verge",
+      "link": "https://www.theverge.com/tech/1035364/microsoft-outlook-outage-notepad",
+      "summary": "At 9AM last Thursday, everything seemed normal. Microsoft employees were arriving on campus, ready for a regular day of emails and meetings.",
+      "publishedAt": "2026-11-17T17:00:00.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "5e1908a0-81b9-49a0-ab77-c1086bdad4d6"
+    },
+    {
+      "title": "The DOJ says it’s investigating Megaspeed",
+      "sourceName": "The Verge",
+      "link": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
+      "summary": "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year.",
+      "publishedAt": "2026-11-17T16:19:03.000Z",
+      "categories": [
+        "AI"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "c4aa2c6b-39fc-4bc4-ba49-5a3a4cf89903"
+    },
+    {
+      "title": "Siemens Mendix Studio Pro",
+      "sourceName": "CISA",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+      "summary": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user&#039;s browser into sending unauthorized requests, potentially leading to unauthorized...",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categories": [
+        "Cybersecurity"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "948ae238-637b-4904-80f7-cff4cc086f2f"
+    },
+    {
+      "title": "Siemens .",
+      "sourceName": "CISA",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+      "summary": "View CSAF Summary . NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory.",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categories": [
+        "Cybersecurity"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "43f26442-551c-4fc9-926b-ec5260bde826"
+    },
+    {
+      "title": "Siemens meta-iot2050",
+      "sourceName": "CISA",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+      "summary": "View CSAF Summary meta-iot2050 (https://github. com/siemens/meta-iot2050) from V01.",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categories": [
+        "Cybersecurity"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "de658f1e-3386-45b2-b986-5746f9b5f173"
+    },
+    {
+      "title": "Siemens SIMATIC WinCC",
+      "sourceName": "CISA",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+      "summary": "View CSAF Summary Graphics Designer of SIMATIC WinCC before V8. 2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device.",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categories": [
+        "Cybersecurity"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "3e7d0184-efc0-40b1-a6dc-a74066ba2e6b"
+    },
+    {
+      "title": "Siemens RUGGEDCOM APE1808",
+      "sourceName": "CISA",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+      "summary": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products.",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categories": [
+        "Cybersecurity"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "86bcb705-cad5-416c-a21f-c72d5c5ac1ce"
+    },
+    {
+      "title": "Dorsett Controls InfoScan",
+      "sourceName": "CISA",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications. The following ver...",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categories": [
+        "Cybersecurity"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "6a8b1558-e260-4b7b-b8b0-415b2bfa9aeb"
+    },
+    {
+      "title": "Siemens Industrial Software Products",
+      "sourceName": "CISA",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+      "summary": "View CSAF Summary On October 21, 2026, the Node. js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categories": [
+        "Cybersecurity"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "3a687bfb-0c6e-4d3a-96f8-d366d4b16ee6"
+    },
+    {
+      "title": "Siemens Industrial Automation Software Products",
+      "sourceName": "CISA",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+      "summary": "View CSAF Summary On October 21, 2026, the Node. js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categories": [
+        "Cybersecurity"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "6499ba79-869d-40e9-8b56-712c8fa86658"
+    },
+    {
+      "title": "Siemens SIMATIC",
+      "sourceName": "CISA",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+      "summary": "View CSAF Summary The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and execute arbitrary code with the privileges of the victim user. Siemens is preparing fixes and recom...",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categories": [
+        "Cybersecurity"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "38c5de82-eb3d-4bed-8ca6-60377f1d7e57"
+    },
+    {
+      "title": "Siemens ROS#",
+      "sourceName": "CISA",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+      "summary": "View CSAF Summary ROS# before version 2. 3.",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categories": [
+        "Cybersecurity"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "6bf3a259-21ec-4a27-a367-b9a46136a2f3"
+    },
+    {
+      "title": "Siemens Simcenter Femap",
+      "sourceName": "CISA",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+      "summary": "View CSAF Summary Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code.",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "categories": [
+        "Cybersecurity"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "cb2e12b2-3505-484d-86c7-58ab60ca4dff"
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "sourceName": "CISA",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability CVE-2026-123039 Check Point Multiple Products Incorrect Permis...",
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "categories": [
+        "Cybersecurity"
+      ],
+      "pinned": false,
+      "hidden": false,
+      "_id": "a8f6b083-e4fe-4bc9-9a50-4e19c3c7b939"
+    }
+  ]
+}

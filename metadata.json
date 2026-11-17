@@ -1,0 +1,6 @@
+{
+  "name": "Bits & Brains Collective",
+  "description": "Computer science made easy, tech help, community, and plain-language resources from Bits & Brains Collective.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
